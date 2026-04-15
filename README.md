@@ -125,4 +125,4 @@ nbformat
 
 ---
 
-*Submitted by: [Your Name] | Primetrade.ai Data Science Intern Application*
+*Submitted by: [MUNISH KUMAR] | Primetrade.ai Data Science Application*

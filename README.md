@@ -22,7 +22,7 @@
 
 ---
 
-## ⚙️ Setup & How to Run
+## ⚙️  How I Setup & How to Run
 
 ### 1. Install dependencies
 ```bash

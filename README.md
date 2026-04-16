@@ -29,7 +29,7 @@
 pip install -r requirements.txt
 ```
 
-### 2. Add your data files
+### 2. Add data files
 Place the CSVs in the project root:
 ```
 fear_greed.csv           # Bitcoin Fear/Greed dataset
@@ -79,7 +79,7 @@ jupyter nbconvert --to notebook --execute trader_sentiment_analysis.ipynb --outp
 - Translated statistical findings into two concrete rule-of-thumb strategies
 - Grounded each rule in the quantitative evidence from Parts A & B
 
-### Bonus
+### For better featuring 
 - **KMeans Clustering (k=4)**: Segmented 120 traders into behavioral archetypes using `StandardScaler` + PCA for visualization
 - **GBM Predictive Model**: Predicted next-day profitability bucket using sentiment + behavior features; achieved **CV F1 ≈ 0.59**
 - Feature importance confirms `is_fear` as the dominant predictor (0.50 importance)
@@ -98,19 +98,19 @@ jupyter nbconvert --to notebook --execute trader_sentiment_analysis.ipynb --outp
 
 ---
 
-## 📌 Strategy Recommendations
+## 📌 Strategies
 
-### 🔴 Strategy 1 — "Fear Filter"
+###  Strategy 1 — "Fear Filter"
 > During Fear days, **reduce leverage by ≥30%** for all High-Leverage traders.  
 > Avoid new Long positions unless trailing 7-day win rate ≥ 55%.
 
-### 🟢 Strategy 2 — "Greed Momentum Rider"
+###  Strategy 2 — "Greed Momentum Rider"
 > During Greed days, **Consistent Winners** (top quartile by consistency score) may scale position size up to **1.5×** and increase trade frequency.  
 > All other trader segments should maintain neutral sizing to avoid FOMO-driven losses.
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 pandas>=2.0
@@ -125,4 +125,4 @@ nbformat
 
 ---
 
-*Submitted by: [MUNISH KUMAR] | Primetrade.ai Data Science Application*
+*Submitted by: MUNISH KUMAR -  Primetrade.ai Data Science Assignment Application*
